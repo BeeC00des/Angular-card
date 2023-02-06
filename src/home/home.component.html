@@ -1,0 +1,11 @@
+<div class="card">
+  <div *ngFor="let card of cards">
+    <div class="cardImg">
+      <img src="{{ card.imageUrl }}" alt="userProfile" />
+    </div>
+    <div class="cardContent">
+      <h1>{{ card.firstName }} {{ card.lastName }}</h1>
+      <p>{{ card.contactNumber }}</p>
+    </div>
+  </div>
+</div>
